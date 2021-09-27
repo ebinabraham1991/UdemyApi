@@ -193,24 +193,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BCP\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\EbinWorkspace\\Udemy\\FirstApi\\FirstApi\\FirstApi.csproj",
+      "projectUniqueName": "D:\\MySection\\UdemyTraining\\UdemyApi\\FirstApi\\FirstApi.csproj",
       "projectName": "FirstApi",
-      "projectPath": "F:\\EbinWorkspace\\Udemy\\FirstApi\\FirstApi\\FirstApi.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\EbinWorkspace\\Udemy\\FirstApi\\FirstApi\\obj\\",
+      "projectPath": "D:\\MySection\\UdemyTraining\\UdemyApi\\FirstApi\\FirstApi.csproj",
+      "packagesPath": "C:\\Users\\BCP\\.nuget\\packages\\",
+      "outputPath": "D:\\MySection\\UdemyTraining\\UdemyApi\\FirstApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\BCP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -259,7 +258,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
