@@ -58,3 +58,6 @@ D:\MySection\UdemyTraining\UdemyApi\FirstApi\obj\Debug\net5.0\FirstApi.dll
 D:\MySection\UdemyTraining\UdemyApi\FirstApi\obj\Debug\net5.0\ref\FirstApi.dll
 D:\MySection\UdemyTraining\UdemyApi\FirstApi\obj\Debug\net5.0\FirstApi.pdb
 D:\MySection\UdemyTraining\UdemyApi\FirstApi\obj\Debug\net5.0\FirstApi.genruntimeconfig.cache
+D:\MySection\UdemyTraining\UdemyApi\FirstApi\bin\Debug\net5.0\AutoMapper.dll
+D:\MySection\UdemyTraining\UdemyApi\FirstApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MySection\UdemyTraining\UdemyApi\FirstApi\obj\Debug\net5.0\FirstApi.csproj.AssemblyReference.cache

@@ -8,6 +8,6 @@ namespace FirstApi.Repositories
 {
     public interface IStudentRepository
     {
-        List<Student> GetStudentDetails();
+        Task<List<Student>> GetStudentDetailsAsync();
     }
 }

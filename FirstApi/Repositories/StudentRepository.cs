@@ -14,9 +14,9 @@ namespace FirstApi.Repositories
         {
             this._context = context;
         }
-        public List<Student> GetStudentDetails()
+        public async Task<List<Student>> GetStudentDetailsAsync()
         {
-            return this._context.Student.Include(nameof(Gender)).Include(nameof(Address)).ToList();
+            return await this._context.Student.Include(nameof(Gender)).Include(nameof(Address)).ToListAsync();
         }
     }
 }
