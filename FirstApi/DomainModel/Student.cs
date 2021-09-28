@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FirstApi.DataModel
+namespace FirstApi.DomainModel
 {
-    public class Tbl_Student
+    public class Student
     {
-
         public Guid Id { get; set; }
 
         public string FirstName { get; set; }
@@ -24,10 +23,8 @@ namespace FirstApi.DataModel
 
         public Guid GenderId { get; set; }
 
-        public Tbl_Gender Gender { get; set; }
+        public Gender Gender { get; set; }
 
-      
-
-
+        public Address Address { get; set; }
     }
 }

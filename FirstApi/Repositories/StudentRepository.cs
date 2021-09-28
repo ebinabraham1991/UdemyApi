@@ -1,4 +1,5 @@
 ﻿using FirstApi.DataModel;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,9 @@ namespace FirstApi.Repositories
         {
             this._context = context;
         }
-        public List<Tbl_Student> GetStudentDetails()
+        public List<Student> GetStudentDetails()
         {
-            return this._context.Tbl_Student.ToList();
+            return this._context.Student.Include(nameof(Gender)).Include(nameof(Address)).ToList();
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FirstApi.DataModel
 {
-    public class Tbl_Address
+    public class Address
     {
         public Guid Id { get; set; }
 

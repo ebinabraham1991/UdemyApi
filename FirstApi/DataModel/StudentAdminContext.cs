@@ -12,11 +12,11 @@ namespace FirstApi.DataModel
         {
 
         }
-        public DbSet<Tbl_Address> Tbl_Address { get; set; }
+        public DbSet<Address> Address { get; set; }
 
-        public DbSet<Tbl_Gender> Tbl_Gender { get; set; }
+        public DbSet<Gender> Gender { get; set; }
 
-        public DbSet<Tbl_Student> Tbl_Student { get; set; }
+        public DbSet<Student> Student { get; set; }
 
     }
 }
