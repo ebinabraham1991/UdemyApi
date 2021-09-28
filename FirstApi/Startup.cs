@@ -1,7 +1,10 @@
+using FirstApi.DataModel;
+using FirstApi.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +31,9 @@ namespace FirstApi
         {
 
             services.AddControllers();
+            services.AddDbContext<StudentAdminContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("StudentAdminPortalDB")));
+            services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FirstApi", Version = "v1" });

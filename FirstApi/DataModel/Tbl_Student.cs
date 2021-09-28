@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FirstApi.DataModel
 {
-    public class Student
+    public class Tbl_Student
     {
 
         public Guid Id { get; set; }
@@ -24,9 +24,9 @@ namespace FirstApi.DataModel
 
         public Guid GenderId { get; set; }
 
-        public Gender Gender { get; set; }
+        public Tbl_Gender Gender { get; set; }
 
-        public Address Address { get; set;  }
+      
 
 
     }
